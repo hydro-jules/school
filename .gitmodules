@@ -1,0 +1,3 @@
+[submodule "python/unifhy"]
+	path = python/unifhy
+	url = https://github.com/unifhy-org/unifhy-training.git
