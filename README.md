@@ -10,7 +10,7 @@ In this document we provide a step-by-step guide to:
 
 <a id="overview_datalabs"></a>
 ### 1. Overview and introduction to DataLabs
-[DataLabs](https://datalab-docs.datalabs.ceh.ac.uk/index.html) is a NERC funded UKCEH based cloud based collaborative environment for developing data pipelines and analytical methods, that provides us with a secure area to collaborate with your colleagues around the world. To use the DataLabs platform, you would need to first get an account with DataLabs and also request access for the HydroJules project on DataLabs (instructions provided with the Hydro-JULES school registration????). After you have your username and password, please follow the steps given below to set up your very own DataLabs lab. 
+[DataLabs](https://datalab-docs.datalabs.ceh.ac.uk/index.html) is a NERC funded UKCEH based cloud based collaborative environment for developing data pipelines and analytical methods, that provides us with a secure area to collaborate with your colleagues around the world. To use the DataLabs platform, you would need to first get an account with DataLabs and also request access for the HydroJules project on DataLabs (????instructions provided with the Hydro-JULES school registration????). After you have your username and password, please follow the steps given below to set up your very own DataLabs lab. 
 
 1. Please go to the webpage https://datalab.datalabs.ceh.ac.uk/, and click on the “Log In” button shown with the red arrow.
 ![image](https://user-images.githubusercontent.com/41617337/171423203-7822c5ff-629f-48e8-99ea-2fc41f43de34.png)
@@ -53,16 +53,16 @@ In this document we provide a step-by-step guide to:
 
 10. Please click on the gitclone icon shown with the red arrow. 
 
-11. Please add the following link address "https://github.com/hydro-jules/school.git" (Hydro-JULES School GitHub repository) to the "Clone a repo" pop up, and then press the clone button (shown with red arrows). 
+11. Please add the following link address "https://github.com/hydro-jules/school.git" to the "Clone a repo" pop up, and then press the clone button (shown with red arrows). 
 
-12.	 Now you can see all the 7 files in your lab’s left hand panel. You can double click on any notebook to launch it. The suggested order for use of these notebooks is:
-1)	netCDF-examples.ipynb - this notebook walks through the structure of a netCDF format data file, and shows how to access data, and plot it, using the netCDF4 library
-2)	cfpython_examples.ipynb - this notebook demonstrates how to use the CF-Python library, which has a number of useful additional features for use with “CF compliant” netCDF files.
-3)	exercise_answers – this notebook contains some answers to questions set in the cfpython_examples notebook
-4)	unifhy_demo.ipynb - this notebook walks through running a simple set of hydrological models using the Hydro-JULES modelling framework
-5)	unifhy_exercise1.ipynb – this contains an exercise on using the modelling framework
-6)	unifhy_exercise2.ipynb – another exercise on the modelling framework
-7)	modelvsobserved_examples.ipynb – this notebook demonstrates how to compare observed station data (in csv format) against modelled gridded dataset (in netCDF format). 
+12. This imports the Hydro-JULES School GitHub repository to your DataLabs JupyterLab. You will see a "Successfully Cloned" pop up indicator at the bottom right of your screen and a "school" folder in the File Browser panel on the left of your screen (shown with red arrows).
+
+13. If you click on the "school" directory, in the File Browser panel, you will see the "python" directory and a "README.md" file which is the current file you are reading. 
+
+14. Within the "python" directory, you find the following three directories:
+  * cf-python – this directory contains notebooks that have exercises to read, analyse and visualize netCDF4 file using the [cf-python](https://ncas-cms.github.io/cf-python/) python module
+  * netcdf4 – this directory contains notebook that has exercises to read, analyse and visualize netCDF4 file using the [netCDF4](https://unidata.github.io/netcdf4-python/) python module
+  * unifhy – this directory contains training material for learning how to use [unifhy](https://unifhy-org.github.io/unifhy/) python package. 
 
 <a id="introduction_notebooks"></a>
 ### 3. Introduction to the repository notebooks
