@@ -53,7 +53,7 @@ In this document we provide a step-by-step guide to:
 
 10. Please click on the gitclone icon shown with the red arrow. 
 
-11. Please add the following link address "[git@github.com:hydro-jules/school.git](git@github.com:hydro-jules/school.git)" (Hydro-JULES School GitHub repository) to the "Clone a repo" pop up, and then press the clone button (shown with red arrows). 
+11. Please add the following link address "https://github.com/hydro-jules/school.git" (Hydro-JULES School GitHub repository) to the "Clone a repo" pop up, and then press the clone button (shown with red arrows). 
 
 12.	 Now you can see all the 7 files in your lab’s left hand panel. You can double click on any notebook to launch it. The suggested order for use of these notebooks is:
 1)	netCDF-examples.ipynb - this notebook walks through the structure of a netCDF format data file, and shows how to access data, and plot it, using the netCDF4 library
