@@ -45,16 +45,15 @@ In this document we provide a step-by-step guide to:
 8. Please click on the “Open” tab (shown with the red arrow), associated with your newly created lab. 
 ![image](https://user-images.githubusercontent.com/41617337/171426514-f3339f82-3846-4ad3-b8f3-fbaf6ccb8e3c.png)
 
-9. This opens a new browser tab with your JupyterLab (shown with a red arrow). You will see a “Build Recommended” pop up. Please click on the “Build” button shown with another red arrow. 
+9. This opens a new browser tab with your JupyterLab (shown with a red arrow). Sometimes you may see a “Build Recommended” pop up. If it appears, please click on the “Build” button shown with another red arrow. 
 ![image](https://user-images.githubusercontent.com/41617337/171426657-8956dc63-3631-4686-83e7-13b28aa8e0f3.png)
 
 <a id="importing_repository"></a>
 ### 2. Importing the GitHub repository into DataLabs
 
+10. Please click on the gitclone icon shown with the red arrow. 
 
-10. Please click on the upload icon shown with the red arrow. 
-
-11. Using the upload pop up, please go to the folder where the Jupyter notebooks that were sent to you are stored on your computer. Please select all the 7 files (shown with the red bracket) and click on the “Open” tab shown with the red arrow. 
+11. Please add the following link address "[git@github.com:hydro-jules/school.git](git@github.com:hydro-jules/school.git)" (Hydro-JULES School GitHub repository) to the "Clone a repo" pop up, and then press the clone button (shown with red arrows). 
 
 12.	 Now you can see all the 7 files in your lab’s left hand panel. You can double click on any notebook to launch it. The suggested order for use of these notebooks is:
 1)	netCDF-examples.ipynb - this notebook walks through the structure of a netCDF format data file, and shows how to access data, and plot it, using the netCDF4 library
