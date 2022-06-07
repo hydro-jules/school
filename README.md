@@ -10,7 +10,9 @@ iii. [Introduction to the repository notebooks](#introduction_notebooks)
 
 <a id="overview_datalabs"></a>
 ### i. Overview and introduction to DataLabs
-[DataLabs](https://datalab-docs.datalabs.ceh.ac.uk/index.html) is a NERC funded UKCEH based cloud based collaborative environment for developing data pipelines and analytical methods, that provides us with a secure area to collaborate with your colleagues around the world. To use the DataLabs platform, you would need to first get an account with DataLabs and also request access for the HydroJules project on DataLabs (????instructions provided with the Hydro-JULES school registration????). After you have your username and password, please follow the steps given below to set up your very own DataLabs lab. 
+[DataLabs](https://datalab-docs.datalabs.ceh.ac.uk/index.html) is a NERC funded UKCEH based cloud based collaborative environment for developing data pipelines and analytical methods, that provides us with a secure area to collaborate with your colleagues around the world. You can refer to this [video](https://www.youtube.com/watch?v=n68X8J4gj6Q) by Matt Fry, which has a brief introduction to DataLabs.
+
+To use the DataLabs platform, you would need to first get an account with DataLabs and also request access for the HydroJules project on DataLabs (????instructions provided with the Hydro-JULES school registration????). After you have your username and password, please follow the steps given below to set up your very own DataLabs lab. 
 
 1. Please go to the webpage https://datalab.datalabs.ceh.ac.uk/, and click on the “Log In” button shown with the red arrow.
 ![image](https://user-images.githubusercontent.com/41617337/171423203-7822c5ff-629f-48e8-99ea-2fc41f43de34.png)
@@ -71,3 +73,19 @@ iii. [Introduction to the repository notebooks](#introduction_notebooks)
 
 <a id="introduction_notebooks"></a>
 ### iii. Introduction to the repository notebooks
+
+15. All of the training notebooks are available with the three directories mentioned in point 14. You can navigate the directories by double clicking on the directory name on the left hand side panel (red arrow) and you can go back with the back button of your browser (red square) or clicking on any of the directories in the path (red rectangle). 
+
+16. Following are brief introductions of the training notebooks available:
+  * netCDF-examples.ipynb – this notebook shows examples of reading in a netCDF file with the netCDF4 python module and discusses in detail the variables and metadata associated with a file having three dimensions (time, latitude and longitude). It shows different methods of analysing and plotting the netCDF data. A brief introduction to this notebook is given in this [video](https://youtu.be/PktTVnQcQy4) by Matt Fry. 
+  * cfpython_examples.ipynb – this notebook shows examples of reading in a netCDF file with the cf-python python module and discusses in detail the variables and metadata associated with a file having three dimensions (time, latitude and longitude). It shows different methods of analysing and plotting the netCDF data. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/dGif03kApJE) by Amulya Chevuturi.
+  * model-vs-observed_examples.ipynb – this notebook shows examples of how to compare model output against observed data with the model output in netCDF format and the observed data in csv format. It discusses reading different formats of datasets into numpy array and plotting the datasets for comparison. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/kqez7RtCKdk) by Amulya Chevuturi.
+  * exercise_answers.ipynb - this notebook has answers to the exercise questions given in the previous two notebooks.
+  * ????unifhy notebooks????
+
+17. More details about running a Jupyter Notebook is provided through the images below:
+![image](https://user-images.githubusercontent.com/41617337/172341097-105faf92-0db0-44fe-ba97-b4c58149b0d5.png)
+![image](https://user-images.githubusercontent.com/41617337/172341255-8c41f3d4-ff8d-415f-8006-74e432fe3f0d.png)
+![image](https://user-images.githubusercontent.com/41617337/172341422-35863117-60b0-41ae-9829-8b8ef6a74453.png)
+
+
