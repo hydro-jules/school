@@ -4,8 +4,11 @@
 Welcome to the Hydro-JULES Summer/Winter DataLab sessions. Please go to [Hydro-JULES school webpage](https://hydro-jules.org/hydro-jules-school) to find more infomration on the school and the sessions. In this GitHub repository you will find all the resources used during these sessions. The DataLabs sessions will be held in the DataLabs room in the [Gather.Town](https://gather.town/). During the DataLab sessions, there will have live presentations, practical demostrations and tutor avaialble to answer questions. If you miss the live sessions, there are a number of video presentations placed around the DataLabs room in Gather.Town, which you can follow instead; these video presentations are also linked within the specific training notebooks provided in this GitHub repository. 
 
 In this document we provide a step-by-step guide to:
+
 i. [Overview and introduction to DataLabs](#overview_datalabs)
+
 ii. [Importing the GitHub repository into DataLabs](#importing_repository)
+
 iii. [Introduction to the repository notebooks](#introduction_notebooks)
 
 <a id="overview_datalabs"></a>
@@ -17,7 +20,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 1. Please go to the webpage https://datalab.datalabs.ceh.ac.uk/, and click on the “Log In” button shown with the red arrow.
 ![image](https://user-images.githubusercontent.com/41617337/171423203-7822c5ff-629f-48e8-99ea-2fc41f43de34.png)
 
-2. Please log in to the ceh-datalab-app (shown with the red arrow) with your created username and password. 
+2. Please log in to the ceh-datalab-webpage (shown with the red arrow) with your created username and password. 
 ![image](https://user-images.githubusercontent.com/41617337/171423345-e9a5f243-8794-42ed-8ab2-779ce26203fd.png)
 
 3. Click on “Open” tab for the HydroJules Project shown with the red arrow.
@@ -30,13 +33,13 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 ![image](https://user-images.githubusercontent.com/41617337/171426195-6d032164-9c57-4eb5-b043-5e05f20dcaf0.png)
 
 6. Fill in the following information in the pop up, scroll down if required. 
-  * Display Name – anything that you like
-  * Type – select “JupyterLab” option
-  * URL Name – any word (ideally similar to the Display Name without any space, dashes or underscore)
-  * Data Store to Mount – select “initialhj” option
-  * Description – a few words describing the JupyterLab
-  * Sharing Status – select “Private” option
-  * Assets – please leave empty or do not select any option
+  * *Display Name* – anything that you like
+  * *Type* – select “JupyterLab” option
+  * *URL Name* – any word (ideally similar to the Display Name without any space, dashes or underscore)
+  * *Data Store* to Mount – select “initialhj” option
+  * *Description* – a few words describing the JupyterLab
+  * *Sharing Status* – select “Private” option
+  * *Assets* – please leave empty or do not select any option
 
     Then click on the “Create” tab at the bottom, shown with the red arrow. 
 ![image](https://user-images.githubusercontent.com/41617337/171426272-0db9bfb9-a567-4375-b746-29d992f9581c.png)
@@ -66,22 +69,23 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 ![image](https://user-images.githubusercontent.com/41617337/172142823-38926187-eb87-4df6-b805-4eaf2dab7ecd.png)
 
 14. Within the "python" directory, you find the following three directories:
-  * cf-python – this directory contains notebooks that have exercises to read, analyse and visualize netCDF4 file using the [cf-python](https://ncas-cms.github.io/cf-python/) python module
-  * netcdf4 – this directory contains notebook that has exercises to read, analyse and visualize netCDF4 file using the [netCDF4](https://unidata.github.io/netcdf4-python/) python module
-  * unifhy – this directory contains training material for learning how to use [unifhy](https://unifhy-org.github.io/unifhy/) python package. 
+  * **cf-python** – this directory contains notebooks that have exercises to read, analyse and visualize netCDF4 file using the [cf-python](https://ncas-cms.github.io/cf-python/) python module
+  * **netcdf4** – this directory contains notebook that has exercises to read, analyse and visualize netCDF4 file using the [netCDF4](https://unidata.github.io/netcdf4-python/) python module
+  * **unifhy** – this directory contains training material for learning how to use [unifhy](https://unifhy-org.github.io/unifhy/) python package. ?????unifhy repository importing??????
 ![image](https://user-images.githubusercontent.com/41617337/172142939-9b5fa103-1262-4bb4-bf5e-6883843bf061.png)
 
 <a id="introduction_notebooks"></a>
 ### iii. Introduction to the repository notebooks
 
 15. All of the training notebooks are available with the three directories mentioned in point 14. You can navigate the directories by double clicking on the directory name on the left hand side panel (red arrow) and you can go back with the back button of your browser (red square) or clicking on any of the directories in the path (red rectangle). 
+![image](https://user-images.githubusercontent.com/41617337/172347607-b380d7e5-4305-44e0-b7fd-6febdf16f7e3.png)
 
 16. Following are brief introductions of the training notebooks available:
-  * netCDF-examples.ipynb – this notebook shows examples of reading in a netCDF file with the netCDF4 python module and discusses in detail the variables and metadata associated with a file having three dimensions (time, latitude and longitude). It shows different methods of analysing and plotting the netCDF data. A brief introduction to this notebook is given in this [video](https://youtu.be/PktTVnQcQy4) by Matt Fry. 
-  * cfpython_examples.ipynb – this notebook shows examples of reading in a netCDF file with the cf-python python module and discusses in detail the variables and metadata associated with a file having three dimensions (time, latitude and longitude). It shows different methods of analysing and plotting the netCDF data. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/dGif03kApJE) by Amulya Chevuturi.
-  * model-vs-observed_examples.ipynb – this notebook shows examples of how to compare model output against observed data with the model output in netCDF format and the observed data in csv format. It discusses reading different formats of datasets into numpy array and plotting the datasets for comparison. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/kqez7RtCKdk) by Amulya Chevuturi.
-  * exercise_answers.ipynb - this notebook has answers to the exercise questions given in the previous two notebooks.
-  * ????unifhy notebooks????
+  * **netCDF-examples.ipynb** – this notebook shows examples of reading in a netCDF file with the netCDF4 python module and discusses in detail the variables and metadata associated with a file having three dimensions (time, latitude and longitude). It shows different methods of analysing and plotting the netCDF data. A brief introduction to this notebook is given in this [video](https://youtu.be/PktTVnQcQy4) by Matt Fry. 
+  * **cfpython_examples.ipynb** – this notebook shows examples of reading in a netCDF file with the cf-python python module and discusses in detail the variables and metadata associated with a file having three dimensions (time, latitude and longitude). It shows different methods of analysing and plotting the netCDF data. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/dGif03kApJE) by Amulya Chevuturi.
+  * **model-vs-observed_examples.ipynb** – this notebook shows examples of how to compare model output against observed data with the model output in netCDF format and the observed data in csv format. It discusses reading different formats of datasets into numpy array and plotting the datasets for comparison. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/kqez7RtCKdk) by Amulya Chevuturi.
+  * **exercise_answers.ipynb** - this notebook has answers to the exercise questions given in the previous two notebooks.
+  * ????**unifhy notebooks**????
 
 17. More details about running a Jupyter Notebook is provided through the images below:
 ![image](https://user-images.githubusercontent.com/41617337/172341097-105faf92-0db0-44fe-ba97-b4c58149b0d5.png)
