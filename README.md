@@ -15,7 +15,7 @@ iii. [Introduction to the repository notebooks](#introduction_notebooks)
 ### i. Overview and introduction to DataLabs
 [DataLabs](https://datalab-docs.datalabs.ceh.ac.uk/index.html) is a NERC funded UKCEH based cloud based collaborative environment for developing data pipelines and analytical methods, that provides us with a secure area to collaborate with your colleagues around the world. You can refer to this [video](https://www.youtube.com/watch?v=n68X8J4gj6Q) by Matt Fry, which has a brief introduction to DataLabs.
 
-To use the DataLabs platform, you would need to first get an account with DataLabs and also request access for the HydroJules project on DataLabs (????instructions provided with the Hydro-JULES school registration????). After you have your username and password, please follow the steps given below to set up your very own DataLabs lab. 
+To use the DataLabs platform, you would need to first get an account with DataLabs and also request access for the HydroJules project on DataLabs (instructions provided in an email sent out before the Hydro-JULES school). After you have your username and password, please follow the steps given below to set up your very own DataLabs lab. 
 
 1. Please go to the webpage https://datalab.datalabs.ceh.ac.uk/, and click on the “Log In” button shown with the red arrow.
 ![image](https://user-images.githubusercontent.com/41617337/171423203-7822c5ff-629f-48e8-99ea-2fc41f43de34.png)
@@ -56,14 +56,19 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 <a id="importing_repository"></a>
 ### ii. Importing the GitHub repository into DataLabs
 
-10. Please click on the gitclone icon (shown with the red arrow). 
+10. Once you are in your JupyterLab in the new browser, please scroll completely down (red downward arrow) in the "Launcher" section (indicated by left facing red arrow).
 ![image](https://user-images.githubusercontent.com/41617337/172142373-29bcdbf0-4d3a-42db-9917-82d02635825a.png)
 
-11. Please add the following link address "https://github.com/hydro-jules/school.git" to the "Clone a repo" pop up, and then press the clone button (shown with red arrows). 
-![image](https://user-images.githubusercontent.com/41617337/172142504-88a082d7-343d-462f-a565-f0d81d62ef00.png)
+11. After you scroll down you can see a "Terminal" tab (red box) in the "Other" section (red arrow) of the launcher. Please double click on the "Terminal" tab.
 
-12. This imports the Hydro-JULES School GitHub repository to your DataLabs JupyterLab. You will see a "Successfully Cloned" pop up indicator at the bottom right of your screen and a "school" folder in the File Browser panel on the left of your screen (shown with red arrows).
-![image](https://user-images.githubusercontent.com/41617337/172142569-99e662ea-1f8e-400b-982e-8799f02195a5.png)
+12. This opens up a new "Terminal 1" (first red arrow) in your launcher section with a command line prompt (second red arrow)
+
+13. In the terminal, please type the following commands (followed by return/enter key). The commands are underlined with red in the image below. Please exchange <NAME> in the first command with your jupterlab URL name you created from step 6. You can also find this <NAME> in your JupyterLab web browser address as shown using the red box.
+    *cd /data/notebooks/jupyterlab-<NAME>/*
+    *git clone --recursive https://github.com/hydro-jules/school.git*
+    *ls*
+ 
+12. This imports the Hydro-JULES School GitHub repository to your DataLabs JupyterLab. You will see a "school" directory apprear in the File Browser panel on the left of your screen (shown with a rectangle box). After the "school" directory shows up in your File Browser panel, please go ahead and close the "Terminal 1" using the cross button next to it. 
 
 13. If you double-click on the "school" directory, in the File Browser panel, you will see the "python" directory and a "README.md" file which is the current file you are reading. 
 ![image](https://user-images.githubusercontent.com/41617337/172142823-38926187-eb87-4df6-b805-4eaf2dab7ecd.png)
@@ -71,7 +76,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 14. Within the "python" directory, you find the following three directories:
   * **cf-python** – this directory contains notebooks that have exercises to read, analyse and visualize netCDF4 file using the [cf-python](https://ncas-cms.github.io/cf-python/) python module
   * **netcdf4** – this directory contains notebook that has exercises to read, analyse and visualize netCDF4 file using the [netCDF4](https://unidata.github.io/netcdf4-python/) python module
-  * **unifhy** – this directory contains training material for learning how to use [unifhy](https://unifhy-org.github.io/unifhy/) python package. ?????unifhy repository importing??????
+  * **unifhy** – this directory contains training material for learning how to use [unifhy](https://unifhy-org.github.io/unifhy/) python package.
 ![image](https://user-images.githubusercontent.com/41617337/172142939-9b5fa103-1262-4bb4-bf5e-6883843bf061.png)
 
 <a id="introduction_notebooks"></a>
@@ -85,11 +90,9 @@ To use the DataLabs platform, you would need to first get an account with DataLa
   * **cfpython_examples.ipynb** – this notebook shows examples of reading in a netCDF file with the cf-python python module and discusses in detail the variables and metadata associated with a file having three dimensions (time, latitude and longitude). It shows different methods of analysing and plotting the netCDF data. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/dGif03kApJE) by Amulya Chevuturi.
   * **model-vs-observed_examples.ipynb** – this notebook shows examples of how to compare model output against observed data with the model output in netCDF format and the observed data in csv format. It discusses reading different formats of datasets into numpy array and plotting the datasets for comparison. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/kqez7RtCKdk) by Amulya Chevuturi.
   * **exercise_answers.ipynb** - this notebook has answers to the exercise questions given in the previous two notebooks.
-  * ????**unifhy notebooks**????
+  * **unifhy directory** - this is the training module for unifhy model. The directory contain data, notebooks and outputs along with its own README.md.
 
 17. More details about running a Jupyter Notebook is provided through the images below:
 ![image](https://user-images.githubusercontent.com/41617337/172341097-105faf92-0db0-44fe-ba97-b4c58149b0d5.png)
 ![image](https://user-images.githubusercontent.com/41617337/172341255-8c41f3d4-ff8d-415f-8006-74e432fe3f0d.png)
 ![image](https://user-images.githubusercontent.com/41617337/172341422-35863117-60b0-41ae-9829-8b8ef6a74453.png)
-
-
