@@ -64,9 +64,9 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 12. This opens up a new "Terminal 1" (first red arrow) in your launcher section with a command line prompt (second red arrow)
 
 13. In the terminal, please type the following commands (followed by return/enter key). The commands are underlined with red in the image below. Please exchange <NAME> in the first command with your jupterlab URL name you created from step 6. You can also find this <NAME> in your JupyterLab web browser address as shown using the red box.
-    *cd /data/notebooks/jupyterlab-<NAME>/*
-    *git clone --recursive https://github.com/hydro-jules/school.git*
-    *ls*
+  * **cd /data/notebooks/jupyterlab-<NAME>/**
+  * **git clone --recursive https://github.com/hydro-jules/school.git**
+  * **ls**
  
 12. This imports the Hydro-JULES School GitHub repository to your DataLabs JupyterLab. You will see a "school" directory apprear in the File Browser panel on the left of your screen (shown with a rectangle box). After the "school" directory shows up in your File Browser panel, please go ahead and close the "Terminal 1" using the cross button next to it. 
 
