@@ -41,7 +41,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
   * *Sharing Status* – select “Private” option
   * *Assets* – please leave empty or do not select any option
 
-    Then click on the “Create” tab at the bottom, shown with the red arrow. 
+   Then click on the “Create” tab at the bottom, shown with the red arrow. 
 ![image](https://user-images.githubusercontent.com/41617337/171426272-0db9bfb9-a567-4375-b746-29d992f9581c.png)
     
 7. You should then see a new lab in your “Notebooks” page, with a blue “Requested” tab, shown with the red arrow. Please wait, this should turn into a green “Ready” tab in a few minutes (you may need to refresh your browser window).
@@ -56,24 +56,30 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 <a id="importing_repository"></a>
 ### ii. Importing the GitHub repository into DataLabs
 
-10. Once you are in your JupyterLab in the new browser, please scroll completely down (red downward arrow) in the "Launcher" section (indicated by left facing red arrow).
-![image](https://user-images.githubusercontent.com/41617337/172142373-29bcdbf0-4d3a-42db-9917-82d02635825a.png)
+10. Once you are in your JupyterLab in the new browser, please scroll completely down (red downward arrow) in the "Launcher" section (left facing red arrow).
+![image](https://user-images.githubusercontent.com/41617337/175516809-f444be36-e2e2-443c-8b54-5e29d4393270.png)
 
 11. After you scroll down you can see a "Terminal" tab (red box) in the "Other" section (red arrow) of the launcher. Please double click on the "Terminal" tab.
+![image](https://user-images.githubusercontent.com/41617337/175516964-c99b9a3d-3848-429a-9e76-9eae99355c4b.png)
 
-12. This opens up a new "Terminal 1" (first red arrow) in your launcher section with a command line prompt (second red arrow)
+12. This opens up a new "Terminal" (first red arrow) in your launcher section with a command line prompt (second red arrow)
+![image](https://user-images.githubusercontent.com/41617337/175517233-fc44b2a9-e255-4925-966e-9a21b4d09cb1.png)
 
-13. In the terminal, please type the following commands (followed by return/enter key). The commands are underlined with red in the image below. Please exchange <NAME> in the first command with your jupterlab URL name you created from step 6. You can also find this <NAME> in your JupyterLab web browser address as shown using the red box.
-  * **cd /data/notebooks/jupyterlab-<NAME>/**
+13. In the terminal, please type or copy and paste (using CTRL C + CTRL V) the following commands (followed by return/enter key). The commands are underlined with red lines in the image below. Please exchange {NAME} in the first command with your jupterlab URL name you created from step 6. You can also find this {NAME} in your JupyterLab web browser address, i.e. the word before the "/lab" (shown using the red box).
+  * **cd /data/notebooks/jupyterlab-{NAME}/**
+  * **ls**
   * **git clone --recursive https://github.com/hydro-jules/school.git**
   * **ls**
- 
-12. This imports the Hydro-JULES School GitHub repository to your DataLabs JupyterLab. You will see a "school" directory apprear in the File Browser panel on the left of your screen (shown with a rectangle box). After the "school" directory shows up in your File Browser panel, please go ahead and close the "Terminal 1" using the cross button next to it. 
+    If the all the commands are successful, the result of the last command should show a "school" directory below the command prompt (shown with a red circle).
+![image](https://user-images.githubusercontent.com/41617337/175517437-28e5f87a-7ec3-4fc4-9f36-8f63ffbb1009.png)
 
-13. If you double-click on the "school" directory, in the File Browser panel, you will see the "python" directory and a "README.md" file which is the current file you are reading. 
+14. The previous step imports the Hydro-JULES School GitHub repository to your DataLabs JupyterLab. You will also see a "school" directory apprear in the File Browser panel on the left of your screen (shown with a rectangle box). After the "school" directory shows up in your File Browser panel, please go ahead and close the "Terminal 1" by clicking on the cross button next to it (shown with a red circle). 
+![image](https://user-images.githubusercontent.com/41617337/175517581-4d2c39ba-eeb3-4216-9d9f-65b84f1ee3da.png)
+
+15. If you double-click on the "school" directory, in the File Browser panel, you will see the "python" directory and a "README.md" file which is the current file you are reading. 
 ![image](https://user-images.githubusercontent.com/41617337/172142823-38926187-eb87-4df6-b805-4eaf2dab7ecd.png)
 
-14. Within the "python" directory, you find the following three directories:
+16. Within the "python" directory, you find the following three directories:
   * **cf-python** – this directory contains notebooks that have exercises to read, analyse and visualize netCDF4 file using the [cf-python](https://ncas-cms.github.io/cf-python/) python module
   * **netcdf4** – this directory contains notebook that has exercises to read, analyse and visualize netCDF4 file using the [netCDF4](https://unidata.github.io/netcdf4-python/) python module
   * **unifhy** – this directory contains training material for learning how to use [unifhy](https://unifhy-org.github.io/unifhy/) python package.
@@ -82,17 +88,17 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 <a id="introduction_notebooks"></a>
 ### iii. Introduction to the repository notebooks
 
-15. All of the training notebooks are available with the three directories mentioned in point 14. You can navigate the directories by double clicking on the directory name on the left hand side panel (red arrow) and you can go back with the back button of your browser (red square) or clicking on any of the directories in the path (red rectangle). 
+17. All of the training notebooks are available with the three directories mentioned in point 14. You can navigate the directories by double clicking on the directory name on the left hand side panel (red arrow) and you can go back with the back button of your browser (red square) or clicking on any of the directories in the path (red rectangle). 
 ![image](https://user-images.githubusercontent.com/41617337/172347607-b380d7e5-4305-44e0-b7fd-6febdf16f7e3.png)
 
-16. Following are brief introductions of the training notebooks available:
+18. Following are brief introductions of the training notebooks available:
   * **netCDF-examples.ipynb** – this notebook shows examples of reading in a netCDF file with the netCDF4 python module and discusses in detail the variables and metadata associated with a file having three dimensions (time, latitude and longitude). It shows different methods of analysing and plotting the netCDF data. A brief introduction to this notebook is given in this [video](https://youtu.be/PktTVnQcQy4) by Matt Fry. 
   * **cfpython_examples.ipynb** – this notebook shows examples of reading in a netCDF file with the cf-python python module and discusses in detail the variables and metadata associated with a file having three dimensions (time, latitude and longitude). It shows different methods of analysing and plotting the netCDF data. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/dGif03kApJE) by Amulya Chevuturi.
   * **model-vs-observed_examples.ipynb** – this notebook shows examples of how to compare model output against observed data with the model output in netCDF format and the observed data in csv format. It discusses reading different formats of datasets into numpy array and plotting the datasets for comparison. The notebook also has some exercises at the end (with hints) for user self-evaluation. A brief introduction to this notebook is given in this [video](https://youtu.be/kqez7RtCKdk) by Amulya Chevuturi.
   * **exercise_answers.ipynb** - this notebook has answers to the exercise questions given in the previous two notebooks.
   * **unifhy directory** - this is the training module for unifhy model. The directory contain data, notebooks and outputs along with its own README.md.
 
-17. More details about running a Jupyter Notebook is provided through the images below:
+19. More details about running a Jupyter Notebook is provided through the images below:
 ![image](https://user-images.githubusercontent.com/41617337/172341097-105faf92-0db0-44fe-ba97-b4c58149b0d5.png)
 ![image](https://user-images.githubusercontent.com/41617337/172341255-8c41f3d4-ff8d-415f-8006-74e432fe3f0d.png)
 ![image](https://user-images.githubusercontent.com/41617337/172341422-35863117-60b0-41ae-9829-8b8ef6a74453.png)
