@@ -100,7 +100,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
   * **exercise_answers.ipynb** - this notebook has answers to the exercise questions given in the previous two notebooks.
   * **unifhy directory** - this is the training module for unifhy model. The directory contain data, notebooks and outputs along with its own README.md.
 
-19. More details about running a Jupyter Notebook is provided through the images below. Please note that to be able to run these notebooks successfully on DataLabs, you need to make sure that the environment (or kernel) is set to "**hj-28-nompi**" (shown through a red circle in the images below), which has all the required python packages already installed. If your environment is set to any other, please click on it and select the **hj-28-nompi** option. 
+19. More details about running a Jupyter Notebook is provided through the images below. Please note that to be able to run these notebooks successfully on DataLabs, you need to make sure that the environment (or kernel) is set to "*hj-38-nompi*" (shown through a red circle in the images below), which has all the required python packages already installed. The environment is usually automatically set to "*hj-38-nompi*"; however, if your environment is set to any other, please click on it and select the "*hj-38-nompi*" option. 
 ![image](https://user-images.githubusercontent.com/41617337/172341097-105faf92-0db0-44fe-ba97-b4c58149b0d5.png)
 ![image](https://user-images.githubusercontent.com/41617337/172341255-8c41f3d4-ff8d-415f-8006-74e432fe3f0d.png)
 ![image](https://user-images.githubusercontent.com/41617337/172341422-35863117-60b0-41ae-9829-8b8ef6a74453.png)
