@@ -1,7 +1,9 @@
 # Hydro-JULES Summer/Winter School
 ## DataLabs Sessions
 
-Welcome to the Hydro-JULES Summer/Winter DataLab sessions. Please go to [Hydro-JULES school webpage](https://hydro-jules.org/hydro-jules-school) to find more infomration on the school and the sessions. In this GitHub repository you will find all the resources used during these sessions. The DataLabs sessions will be held in the DataLabs room in the [Gather.Town](https://gather.town/). During the DataLab sessions, there will have live presentations, practical demostrations and tutor avaialble to answer questions. If you miss the live sessions, there are a number of video presentations placed around the DataLabs room in Gather.Town, which you can follow instead; these video presentations are also linked within the specific training notebooks provided in this GitHub repository. 
+Welcome to the Hydro-JULES Summer/Winter DataLab sessions. Please go to [Hydro-JULES school webpage](https://hydro-jules.org/hydro-jules-school) to find more infomration on the school and the sessions. In this GitHub repository you will find all the resources used during these sessions. The DataLabs sessions will be held in the DataLabs room in the [Gather.Town](https://gather.town/). During the DataLab sessions, there will have live presentations, practical demostrations and tutor avaialble to answer questions. If you miss the live sessions, there are a number of video presentations placed around the DataLabs room in Gather.Town, which you can follow instead; these video presentations are also linked within the specific training notebooks provided in this GitHub repository.
+
+The GitHub repository and the associated instructions in the README.md are written for the training sessions on DataLabs during the Hydro-JULES Summer/Winter School. However, please note that this GitHub repository is freely avaialble to use, even after the Hydro-JULES Summer/Winter School is completed. You can clone this repository to your own local/remote workspace and continue your training sessions. To be able to work on your own wokspace, please make sure you have all the required python packages installed (please see the [following](https://ncas-cms.github.io/cf-python/installation.html#operating-systems) operating system requirements for cf-python package). You would also need to have access to the datasets used in the notebooks. Please contact [Matt Fry](mailto:mfry@ceh.ac.uk) or [Amulya Chevuturi](mailto:amuche@ceh.ac.uk) to get a copy of the required input data. Please do remember to change the path of the input data in the notebooks, when you use this repository on your own workspace.  
 
 In this document we provide a step-by-step guide to:
 
@@ -98,7 +100,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
   * **exercise_answers.ipynb** - this notebook has answers to the exercise questions given in the previous two notebooks.
   * **unifhy directory** - this is the training module for unifhy model. The directory contain data, notebooks and outputs along with its own README.md.
 
-19. More details about running a Jupyter Notebook is provided through the images below:
+19. More details about running a Jupyter Notebook is provided through the images below. Please note that to be able to run these notebooks successfully on DataLabs, you need to make sure that the environment (or kernel) is set to "**hj-28-nompi**" (shown through a red circle in the images below), which has all the required python packages already installed. If your environment is set to any other, please click on it and select the **hj-28-nompi** option. 
 ![image](https://user-images.githubusercontent.com/41617337/172341097-105faf92-0db0-44fe-ba97-b4c58149b0d5.png)
 ![image](https://user-images.githubusercontent.com/41617337/172341255-8c41f3d4-ff8d-415f-8006-74e432fe3f0d.png)
 ![image](https://user-images.githubusercontent.com/41617337/172341422-35863117-60b0-41ae-9829-8b8ef6a74453.png)
