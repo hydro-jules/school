@@ -84,7 +84,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 16. Within the "python" directory, you find the following three directories:
   * **cf-python** – this directory contains notebooks that have exercises to read, analyse and visualize netCDF4 file using the [cf-python](https://ncas-cms.github.io/cf-python/) python module
   * **netcdf4** – this directory contains notebook that has exercises to read, analyse and visualize netCDF4 file using the [netCDF4](https://unidata.github.io/netcdf4-python/) python module
-  * **unifhy** – this directory contains training material for learning how to use [unifhy](https://unifhy-org.github.io/unifhy/) python package.
+  * **unifhy** – this directory contains training material for learning how to use [unifhy](https://unifhy-org.github.io/unifhy/) python package. To run these notebooks on DataLabs, please make sure your environment/kernel is set to "*hj-38-nompi*" (please see the last point in the README.md to find out how to change your environment on DataLabs). 
 ![image](https://user-images.githubusercontent.com/41617337/172142939-9b5fa103-1262-4bb4-bf5e-6883843bf061.png)
 
 <a id="introduction_notebooks"></a>
