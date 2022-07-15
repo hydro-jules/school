@@ -102,7 +102,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 
 19. Please note that to be able to run these notebooks successfully on DataLabs, you need to make sure that the environment (or kernel) is set to "*hj-38-nompi*" (shown using a red circle in the image below). The "*hj-38-nompi*" environment/kernel has all the required python packages for the training notebooks already installed. The environment/kernel is usually automatically set to "*hj-38-nompi*" when you open any notebook (generally for the netCDF4 and cf-python notebooks).  
 ![image](https://user-images.githubusercontent.com/41617337/179184129-ed5519b5-2bd1-48a5-ab40-9e029322ca97.png)
-However, if your environment is set to any other (generally for the unifhy notebooks), shown as an example using a red circle in the image below, please click on it (red circle), which gives you a drop down menu (red square), which on selection has multiple environment/kernel options; please select the "*hj-38-nompi*" option (right-handed arrow) and click on "select button" (right-handed arrow).
+However, if your environment is set to any other (generally for the unifhy notebooks), shown as an example using a red circle in the image below, please click on it (red circle), which gives you a drop down menu (red square), which on selection has multiple environment/kernel options; please select the "*hj-38-nompi*" option (right-handed arrow) and click on "select button" (left-handed arrow).
 ![image](https://user-images.githubusercontent.com/41617337/179184288-df56922e-ae4a-43e7-ae19-3b3e5f86cb7f.png)
 
 20. More details about running a Jupyter Notebook is provided through the images below: 
