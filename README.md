@@ -67,7 +67,7 @@ To use the DataLabs platform, you would need to first get an account with DataLa
 12. This opens up a new "Terminal" (first red arrow) in your launcher section with a command line prompt (second red arrow)
 ![image](https://user-images.githubusercontent.com/41617337/175517233-fc44b2a9-e255-4925-966e-9a21b4d09cb1.png)
 
-13. In the terminal, please type or copy and paste (using CTRL C + CTRL V) the following commands (followed by return/enter key). The commands are underlined with red lines in the image below. Please exchange {NAME} in the first command with your jupterlab URL name you created from step 6. You can also find this {NAME} in your JupyterLab web browser address, i.e. the word before the "/lab" (shown using the red box). PLease use the following command with the curly brackets {} for {NAME}.
+13. In the terminal, please type or copy and paste (using CTRL C + CTRL V) the following commands (followed by return/enter key). The commands are underlined with red lines in the image below. Please exchange {NAME} in the first command with your jupterlab URL name you created from step 6. You can also find this {NAME} in your JupyterLab web browser address, i.e. the word before the "/lab" (shown using the red box). Please use the following command with the curly brackets {} for adding the {NAME} correctly.
   * **cd /data/notebooks/jupyterlab-{NAME}/**
   * **ls**
   * **git clone --recursive https://github.com/hydro-jules/school.git**
