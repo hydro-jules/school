@@ -36,4 +36,4 @@ We will be using [Jupyter notebooks](https://jupyter.org/) on the [JASMIN Notebo
 
 **HJSS Workshop 5:** Introduces object storage and the Zarr data format. [Link]()
 
-**HJSS Workshop 6:** Provides a series of practical applications and the opportunity to ask further questions. [Link]()
+**HJSS Workshop 6:** Provides a series of practical applications and the opportunity to ask further questions. [Link](https://github.com/hydro-jules/school/tree/main/HJSS_Workshop-6)
