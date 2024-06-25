@@ -26,9 +26,9 @@ ii. [Introduction to the workshop notebooks](#introduction-to-the-workshop-noteb
 
 
 ## Overview and introduction to using notebooks on JASMIN
-[JASMIN](https://jasmin.ac.uk/) provides storage and compute facilities to enable data-intensive environmental science. It provides support for a wide range of data-intensive analysis workflows. It is designed and operated by the [Science and Technology Facilities Council (STFC)](https://www.ukri.org/councils/stfc/) on behalf of the [Natural Environment Research Council[(NERC)](https://www.ukri.org/councils/nerc/). 
+[JASMIN](https://jasmin.ac.uk/) provides storage and compute facilities to enable data-intensive environmental science. It provides support for a wide range of data-intensive analysis workflows. It is designed and operated by the [Science and Technology Facilities Council (STFC)](https://www.ukri.org/councils/stfc/) on behalf of the [Natural Environment Research Council [(NERC)](https://www.ukri.org/councils/nerc/). 
 
-We will be using [Jupyter notebooks](https://jupyter.org/) on the [JASMIN Notebook Service](https://notebooks.jasmin.ac.uk/) JASMIN provide [guidance](https://help.jasmin.ac.uk/docs/interactive-computing/jasmin-notebooks-service/) on what is a Jupyter Notebook, the [Jaspy Software Environments](https://help.jasmin.ac.uk/docs/software-on-jasmin/jaspy-envs/) they provide, how to use the Notebook Service, and links to further learning resources.   
+We will be using [Jupyter notebooks](https://jupyter.org/) on the [JASMIN Notebook Service](https://notebooks.jasmin.ac.uk/) JASMIN provide [guidance](https://help.jasmin.ac.uk/docs/interactive-computing/jasmin-notebooks-service/) on what is a Jupyter Notebook, the [Jaspy Software Environments](https://help.jasmin.ac.uk/docs/software-on-jasmin/jaspy-envs/) they provide, how to use the Notebook Service, and links to further learning resources. Please use the Python 3 + Jaspy Kernel to run your notebooks. 
 
 ## Introduction to the workshop notebooks
 
