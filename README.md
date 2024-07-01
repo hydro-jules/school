@@ -3,7 +3,7 @@
 Welcome to the Hydro-JULES Summer School multi-dimensional data workshops. This series of three workshops cover the basics of accessing and using multi-dimensional data. Summaries of the three workshops are provided below, along with links to the Python Jupyter Notebooks that we will be going through with you. 
 
 <details>
-    <summary>If you are not attending the Summer School, please read this message.</summary>
+    <summary>If you are not attending the Summer School, please click here to read this message.</summary>
 These notebooks were provided as part of the Hydro-JULES summer school. This guidance was written for taking the participants through these notebooks using the JASMIN Notebook Service, where they would have access to the data. You are very welcome to go through these notebooks in your own time. These workshops are based on several excellent tutorials, which you will find links to.
 </details>
 
