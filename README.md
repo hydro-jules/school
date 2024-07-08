@@ -1,6 +1,6 @@
 # Hydro-JULES Summer School 2024
 
-Welcome to the Hydro-JULES Summer School multi-dimensional data workshops. This series of three workshops cover the basics of accessing and using multi-dimensional data. Summaries of the three workshops are provided below, along with links to the Python Jupyter Notebooks that we will be going through with you. 
+Welcome to the Hydro-JULES Summer School multi-dimensional data workshops. This series of three workshops cover the basics of accessing and using multi-dimensional data with Python. Summaries of the three workshops are provided below, along with links to the Python Jupyter Notebooks - that we will be going through with you. 
 
 <details>
     <summary>If you are not attending the Summer School, please click here to read this message.</summary>
@@ -16,7 +16,7 @@ These notebooks were provided as part of the Hydro-JULES summer school. This gui
 - Introduce you to cloud object storage and related Python packages.
 - Provide practice with practical applications of these standards and packages.
 
-During workshops 4 and 5, we will be talking you through the associated notebooks. In the 6th workshop, you will have opportunity to work through a series of exercises in a notebook and ask further questions. We will be using Zoom to deliver these workshops, you will have been emailed joining links for each of the workshops. We look forward to meeting you.
+During workshops 4 and 5, we will be providing an overview of the associated notebooks, then allow you time to work through them. In the 6th workshop, you will have opportunity to work through a series of exercises in a notebook and ask further questions. We will be using Zoom to deliver these workshops, you will have been emailed joining links for each of the workshops. We look forward to meeting you.
 
 If during the Summer School workshops you require assistance, please contact [Kit Macleod](mailto:kitmac@ceh.ac.uk) or [Amulya Chevuturi](mailto:amuche@ceh.ac.uk). 
 
@@ -42,7 +42,7 @@ We will be using [Jupyter notebooks](https://jupyter.org/) on the [JASMIN Notebo
  * To run any of the notebooks within the repository, please use the kernel option *Python 3 + Jaspy Kernel*. 
 </details>
 
-## Introduction to the Hydro-JULES Summer School (HJSS) workshops notebooks
+## Introduction to the Hydro-JULES Summer School (HJSS) workshop notebooks
 
 **HJSS Workshop 4:** Working with multi-dimensional data (netCDF). Introduces NetCDF and using Python packages to access, analyse, and visualise NetCDF files. [Link](https://github.com/hydro-jules/school/tree/main/HJSS_Workshop-4)
 
