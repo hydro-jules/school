@@ -42,8 +42,8 @@ We will be using [Jupyter notebooks](https://jupyter.org/) on the [JASMIN Notebo
 
 ## Introduction to the Hydro-JULES Summer School (HJSS) workshops notebooks
 
-**HJSS Workshop 4:** Working with multi-dimensional data (netCDF). Introduces NetCDF and using Python packages to access, analyse, and visualise NetCDF files. [Link]()
+**HJSS Workshop 4:** Working with multi-dimensional data (netCDF). Introduces NetCDF and using Python packages to access, analyse, and visualise NetCDF files. [Link](https://github.com/hydro-jules/school/tree/main/HJSS_Workshop-4)
 
-**HJSS Workshop 5:** Introduces object storage and the Zarr data format. [Link]()
+**HJSS Workshop 5:** Introduces object storage and the Zarr data format. [Link](https://github.com/hydro-jules/school/tree/main/HJSS_Workshop-5)
 
 **HJSS Workshop 6:** Provides a series of practical applications and the opportunity to ask further questions. [Link](https://github.com/hydro-jules/school/tree/main/HJSS_Workshop-6)
