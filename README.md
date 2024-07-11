@@ -33,13 +33,24 @@ ii. [Introduction to the workshop notebooks](#introduction-to-the-workshop-noteb
 We will be using [Jupyter notebooks](https://jupyter.org/) on the [JASMIN Notebook Service](https://notebooks.jasmin.ac.uk/) JASMIN provide [guidance](https://help.jasmin.ac.uk/docs/interactive-computing/jasmin-notebooks-service/) on what is a Jupyter Notebook, the [Jaspy Software Environments](https://help.jasmin.ac.uk/docs/software-on-jasmin/jaspy-envs/) they provide, how to use the Notebook Service, and links to further learning resources.
 
 <details>
- <summary>To begin working with this repository during the Hydro-JULES Summer School training sessions, please click here.</summary>
+ <summary>To work with this repository during the Hydro-JULES Summer School training sessions, please click here.</summary>
     
  * Log in to [JASMIN Notebook Service](https://notebooks.jasmin.ac.uk/)    
  * In your JASMIN home directory click on the "Git" tab on your JupyterLab, and select "Clone a Repository" option.
  * In the subsequent window put in the GitHub repository address https://github.com/hydro-jules/school.git and tick the download repository option, before selecting the "clone" option.
  * It takes up to a few minutes for the repository to clone and once successful, you have a directory named "school" in your File Browser navigator on the left.
  * To run any of the notebooks within the repository, please use the kernel option *Python 3 + Jaspy Kernel*. 
+</details>
+
+<details>
+ <summary>To work with this repository beyond the Hydro-JULES Summer School training sessions and on platforms beyond JASMIN, please click here.</summary>
+    
+ * Please select any other platform like [Google Colab](https://colab.research.google.com/) and clone the repository there.   
+ * Install the conda environment which will make all the notebooks run using the conda_requirements.txt file via any of the following commands:
+   ```conda install --yes --file requirements.txt``` installing using conda
+   ```pip install -r requirements.txt``` installing using pip 
+   ```conda create --name <env_name> --file requirements.txt``` installing using conda while creating a virtual environment
+ * 
 </details>
 
 ## Introduction to the Hydro-JULES Summer School (HJSS) workshop notebooks
