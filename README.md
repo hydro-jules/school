@@ -46,7 +46,7 @@ We will be using [Jupyter notebooks](https://jupyter.org/) on the [JASMIN Notebo
  <summary>To work with this repository on platforms beyond JASMIN and after the HydroJULES Summer School, please click here.</summary>
     
  * Please select any other platform like [Google Colab](https://colab.research.google.com/) and clone the repository there.   
- * Install the conda environment which will make all the notebooks run using the [conda_requirements.txt](https://github.com/hydro-jules/school/blob/main/conda_requirements.txt) file via any of the following commands:
+ * Install the conda environment which will make all the notebooks run using the [requirements.txt](https://github.com/hydro-jules/school/blob/main/conda_requirements.txt) file via any of the following commands:
    - ```conda install --yes --file requirements.txt``` installing using conda
    - ```conda create --name <env_name> --file requirements.txt``` installing using conda while creating a virtual environment
    - ```pip install -r requirements.txt``` installing using pip
