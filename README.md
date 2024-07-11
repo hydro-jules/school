@@ -47,10 +47,10 @@ We will be using [Jupyter notebooks](https://jupyter.org/) on the [JASMIN Notebo
  <summary>To work with this repository beyond the Hydro-JULES Summer School training sessions and on platforms beyond JASMIN, please click here.</summary>
     
  * Please select any other platform like [Google Colab](https://colab.research.google.com/) and clone the repository there.   
- * Install the conda environment which will make all the notebooks run using the conda_requirements.txt file via any of the following commands:
+ * Install the conda environment which will make all the notebooks run using the [conda_requirements.txt](https://github.com/hydro-jules/school/blob/main/conda_requirements.txt) file via any of the following commands:
    - ```conda install --yes --file requirements.txt``` installing using conda
-   - ```pip install -r requirements.txt``` installing using pip
    - ```conda create --name <env_name> --file requirements.txt``` installing using conda while creating a virtual environment
+   - ```pip install -r requirements.txt``` installing using pip
  * Almost all of the data used in the training notebooks is freely available for the notebooks to work with. The only data on JASMIN group workspace cannot be accessed beyond JASMIN firewalls, which is the CHESS-MET data. However, this data is freely avaialble at the EIDC webpage. Thus, to anyone who wants to work with this data can go ahead and download the data and use it.
 </details>
 
