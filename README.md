@@ -4,7 +4,8 @@ Welcome to the Hydro-JULES Summer School multi-dimensional data workshops. This 
 
 <details>
     <summary>If you are not attending the Summer School, please click here to read this message.</summary>
-These notebooks were provided as part of the Hydro-JULES summer school. This guidance was written for taking the participants through these notebooks using the JASMIN Notebook Service, where they would have access to the data. You are very welcome to go through these notebooks in your own time. These workshops are based on several excellent tutorials, which you will find links to.
+These notebooks were provided as part of the Hydro-JULES summer school. This guidance was written for taking the participants through these notebooks using the JASMIN Notebook Service, where they would have access to the data. You are very welcome to go through these notebooks in your own time and on a different platform. More details on how to use these training notebooks beyond JASMIN Notebook Service has been provided below. These workshops are based on several excellent tutorials, which you will find links to.
+
     
 [JULES](https://jules.jchmr.org/) is a community land surface model that is used both as a standalone model and as the land surface component in the Met Office Unified Model. JULES has been developed by a wide community of UK researchers, coordinated by UKMO and UKCEH. By allowing different land surface processes (surface energy balance, hydrological cycle, carbon cycle, dynamic vegetation, etc.) to interact with each other, JULES provides a framework to assess the impact of modifying a particular process on the ecosystem as a whole, e.g. the impact of climate change on hydrology, and to study potential feedbacks.
 </details>
